@@ -82,17 +82,17 @@ I left the fill memory function for reference which was helpful for diagnosing e
  
  
 ## Results
-In my first attempt, I started with 250 episodes of random actions to then went on with the normal training. 
+In my first attempt, I started with 250 episodes of random actions to then went on with the normal training. Solved in 646 episodes.
  
 <img src="output-1.png" width="100%" align="top-left" alt="" title="Training Chart 1" />
  
  
-After that training, I increased the Epsilon to 5 and reduced the decay to 0.9995 and removed the random episodes.
+After that training, I increased the Epsilon to 5 and reduced the decay to 0.9995 and removed the random episodes. Solved in 1087 episodes.
  
 <img src="output-2.png" width="100%" align="top-left" alt="" title="Training Chart 2" />
  
  
-The last time I trained I increased the Epsilon to 10 and reduced the decay to 0.999 and lowered the memory size and increased the batch size.
+The last time I trained I increased the Epsilon to 10 and reduced the decay to 0.999 and lowered the memory size and increased the batch size. Solved in 1143 episodes.
  
 <img src="output-3.png" width="100%" align="top-left" alt="" title="Training Chart 3" />
  
